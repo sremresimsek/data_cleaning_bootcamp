@@ -22,11 +22,11 @@ Aşağıda, repo içerisinde yer alan konular ve örnek çalışmaların kısa b
 
 | Klasör / Dosya | Açıklama |
 |----------------|-----------|
-| `python_basics.ipynb` | Python temelleri (listeler, sözlükler) |
-| `functions.ipynb` | Python dilinde fonksiyonlar |
-| `try_except.ipynb` | Python dilinde hata ayıklama işlemleri |
-| `file_operations.ipynb` | Python dilnde dosya işlemleri |
-| `numpy_1.ipynb` | NumPy dizileri, çok boyutlu matris işlemleri |
+| `functions.ipynb` | Python Dilinde Fonksiyonlar |
+| `numpy_bitirme.ipynb` | NumPy Kütüphanesi İşlemleri |
+| `pandas_bitirme.ipynb` | Pandas Kütüphanesi İşlemleri |
+| `pandas_ekstra_2.ipynb` | Pandas Kütüphanesi Ekstra İşlemler |
+| `visualization_seaborn.ipynb` | Seaborn Kütühanesi ile Görselleştirme İşlemleri |
 
 ---
 
