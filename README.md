@@ -1,68 +1,35 @@
-# 🧹 Data Cleaning Bootcamp  
+# Data Cleaning Bootcamp
 
-> Kişisel öğrenme yolculuğumun bir parçası: Python, NumPy ve Pandas kullanarak veri temizleme, düzenleme ve analiz becerilerimi geliştiriyorum.
+**Guided data science coursework & practical notebooks** · Python · NumPy · pandas · Matplotlib · Seaborn
 
----
+This repository collects the foundational exercises I practiced while learning Python for data science. It focuses on programming, numerical computing, tabular data manipulation and visualization.
 
-## 🎯 Hakkında  
+**Scope and ownership:** These are guided learning exercises, not independently designed projects.
 
-Bu repo, **veri bilimi yolculuğumun temellerini** oluşturmak için yaptığım çalışmaların bir araya geldiği bir günlük gibi.  
-Henüz öğrenme aşamasındayım ama her adımda daha düzenli, okunabilir ve temiz veri üretmeyi öğreniyorum.  
+## Topics
 
-Amacım:  
-- Python ve veri kütüphanelerinde uzmanlaşmak  
-- Gerçek veri setlerinde temizlik ve ön işleme becerisi kazanmak  
-- Zamanla küçük veri bilimi projelerine adım atmak 🚀  
+| Area | Contents |
+| --- | --- |
+| [Python](python/) | Control flow, functions, exceptions, map, filter and lambda expressions |
+| [NumPy](numpy/) | Arrays, indexing, numerical operations and practice exercises |
+| [pandas](pandas/) | DataFrames, filtering, aggregation, joins and tabular data manipulation |
+| [Data visualization](data_visualization/) | Matplotlib and Seaborn exercises |
 
----
+## Related studies
 
-## 🧠 Öğrenme Sürecim  
+The overlapping EDA and cleaning notebooks have been consolidated into their dedicated repositories:
 
-Aşağıda, repo içerisinde yer alan konular ve örnek çalışmaların kısa bir özeti var:
+- [Exploratory Data Analysis](https://github.com/sremresimsek/exploratory-data-analysis) — MPG and Wine Quality
+- [Feature Engineering & Cleaning](https://github.com/sremresimsek/feature-engineering-and-cleaning) — Cafe Sales and Titanic
+- [Data Preprocessing](https://github.com/sremresimsek/data_preprocessing) — missing values, outliers and transformations
 
-| Klasör / Dosya | Açıklama |
-|----------------|-----------|
-| `functions.ipynb` | Python Dilinde Fonksiyonlar |
-| `numpy_bitirme.ipynb` | NumPy Kütüphanesi İşlemleri |
-| `pandas_bitirme.ipynb` | Pandas Kütüphanesi İşlemleri |
-| `pandas_ekstra_2.ipynb` | Pandas Kütüphanesi Ekstra İşlemler |
-| `visualization_seaborn.ipynb` | Seaborn Kütühanesi ile Görselleştirme İşlemleri |
+## Getting started
 
----
+1. Create and activate a Python virtual environment.
+2. Install dependencies: `python -m pip install -r requirements.txt`.
+3. Open Jupyter: `python -m jupyter notebook`.
+4. Run each notebook from its own directory so relative dataset paths resolve correctly.
 
-## 🧰 Kullandığım Araçlar & Kütüphaneler  
+## Data and reproducibility
 
-- **Python 3.14**  
-- **Jupyter Notebook**  
-- **NumPy** – Sayısal işlemler  
-- **Pandas** – Veri düzenleme & temizlik  
-- **Matplotlib** – Basit veri görselleştirme  
-
----
-
-## 🪄 Planım  
-
-✅ Python temellerini tekrar etmek  
-✅ NumPy & pandas’ta kendimi güçlendirmek  
-⬜ Gerçek veri setlerinde temizlik pratiği yapmak  
-⬜ ML & NLP konularına geçmek  
-⬜ İlk freelance veri temizleme işime başlamak  
-
----
-
-## 🚀 Hedef  
-
-Bu repo sadece bir depo değil, **kendi gelişimimin kaydı.**  
-Zamanla buraya yeni veri temizleme projeleri, mini analizler ve raporlar eklenecek.  
-
----
-
-## 📬 İletişim  
-
-> 💡 Henüz öğrenciyim ama öğrenmeye çok açığım.  
-> Eğer fikir, öneri ya da proje paylaşmak istersen:  
-> 👉 GitHub üzerinden issue açabilir veya iletişime geçebilirsin.
-
----
-
-⭐ **Beğendiysen** yıldız bırakmayı unutma :)  
+The notebooks were run locally during the cleanup using Python 3.12. Dependency versions are not locked, so results may vary in other environments. See [DATA_SOURCES.md](DATA_SOURCES.md) for dataset provenance and privacy limitations.
